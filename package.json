@@ -1,0 +1,41 @@
+{
+  "name": "@osmcha/osm-changeset-xml-parser",
+  "version": "1.0.0",
+  "description": "Parse OpenStreetMap Changeset metadata XML documents",
+  "type": "module",
+  "exports": {
+    "import": "./index.js",
+    "require": "./dist/index.cjs"
+  },
+  "files": [
+    "dist/*",
+    "index.js"
+  ],
+  "scripts": {
+    "build": "rollup index.js --external sax --format cjs --file dist/index.cjs",
+    "prepare": "npm run build && npm run test",
+    "test": "tape tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSMCha/osm-changeset-xml-parser.git"
+  },
+  "keywords": [
+    "openstreetmap",
+    "osm",
+    "changeset"
+  ],
+  "author": "Jake Low <jake@openstreetmap.us>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OSMCha/osm-changeset-xml-parser/issues"
+  },
+  "homepage": "https://github.com/OSMCha/osm-changeset-xml-parser#readme",
+  "dependencies": {
+    "sax": "^1.4.1"
+  },
+  "devDependencies": {
+    "rollup": "^4.21.2",
+    "tape": "^5.8.1"
+  }
+}

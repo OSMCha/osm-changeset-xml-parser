@@ -1,0 +1,29 @@
+{
+  "version": "0.6",
+  "generator": "openstreetmap-cgimap 2.0.1 (1871 spike-07.openstreetmap.org)",
+  "copyright": "OpenStreetMap and contributors",
+  "attribution": "http://www.openstreetmap.org/copyright",
+  "license": "http://opendatacommons.org/licenses/odbl/1-0/",
+  "changeset": {
+    "id": 155176527,
+    "created_at": "2024-08-13T04:57:46Z",
+    "closed_at": "2024-08-13T04:57:47Z",
+    "open": false,
+    "user": "jake-low",
+    "uid": 8794039,
+    "min_lat": 37.6026422,
+    "min_lon": -112.1700023,
+    "max_lat": 37.6132785,
+    "max_lon": -112.156274,
+    "comments_count": 0,
+    "changes_count": 14,
+    "tags": {
+      "changesets_count": "1987",
+      "comment": "Bryce Canyon NP, UT: map wheelchair access to Bryce Point overlook",
+      "created_by": "iD 2.29.0",
+      "host": "https://www.openstreetmap.org/edit",
+      "imagery_used": "Bing Maps Aerial",
+      "locale": "en-US"
+    }
+  }
+}

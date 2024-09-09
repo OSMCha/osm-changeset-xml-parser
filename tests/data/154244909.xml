@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.0.1 (1866 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <changeset id="154244909" created_at="2024-07-22T05:32:37Z" closed_at="2024-07-22T05:32:42Z" open="false" user="jake-low" uid="8794039" min_lat="42.6621430" min_lon="-114.2856060" max_lat="42.6964622" max_lon="-114.1482154" comments_count="0" changes_count="599">
+  <tag k="changesets_count" v="1913"/>
+  <tag k="comment" v="Minidoka National Historic Site: micromap interpretive signs, add accessibility information"/>
+  <tag k="created_by" v="iD 2.29.0"/>
+  <tag k="host" v="https://www.openstreetmap.org/edit"/>
+  <tag k="imagery_used" v="Bing Maps Aerial"/>
+  <tag k="locale" v="en-US"/>
+  <tag k="resolved:outdated_tags:incomplete_tags" v="1"/>
+  <tag k="resolved:outdated_tags:noncanonical_brand" v="1"/>
+  <tag k="warnings:almost_junction:highway-highway" v="1"/>
+  <tag k="warnings:disconnected_way:highway" v="1"/>
+  <tag k="warnings:mismatched_geometry:area_as_line" v="1"/>
+ </changeset>
+</osm>

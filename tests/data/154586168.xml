@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.0.1 (1872 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <changeset id="154586168" created_at="2024-07-30T02:52:26Z" closed_at="2024-07-30T02:52:30Z" open="false" user="jake-low" uid="8794039" min_lat="48.0487553" min_lon="-122.0318984" max_lat="48.1050055" max_lon="-121.9225302" comments_count="0" changes_count="1370">
+  <tag k="comment" v="Granite Falls, WA: TIGER review lots of roads; fix some incorrect names (by consulting Snohomish County official GIS data)"/>
+  <tag k="created_by" v="JOSM/1.5 (19096 en)"/>
+  <tag k="source" v="Bing; Snohomish County Orthophotos (2022); Notes"/>
+ </changeset>
+</osm>
