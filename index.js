@@ -40,7 +40,9 @@ function parseChangesetXML(xmlString) {
     parser.onend = () => {
       let { changeset } = result;
       for (let attr of TYPED_ATTRS) {
-        changeset[attr] = JSON.parse(changeset[attr]);
+        if (changeset[attr] !== undefined) {
+          changeset[attr] = JSON.parse(changeset[attr]);
+        }
       }
       resolve(result);
     };
